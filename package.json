@@ -1,0 +1,17 @@
+{
+  "name": "quotes-indonesia-api",
+  "version": "1.0.0",
+  "description": "Quotes Indonesia API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Ramadhan Abelio Nusa Putra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
