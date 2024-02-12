@@ -49,12 +49,6 @@ git clone https://github.com/username/indonesian-quotes-api.git
 cd indonesian-quotes-api
 ```
 
-**3.** Project initialization and package.json file creation:
-
-```bash
-npm init -y
-```
-
 **3.** Install Node.js dependencies using npm:
 
 ```bash
