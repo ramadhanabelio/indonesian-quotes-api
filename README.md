@@ -68,3 +68,13 @@ node server.js
 ```
 
 After following the steps above, the Indonesian Quotes API server is now running and can be accessed via a browser or an API testing tool such as Postman.
+
+### Example Implementation
+
+**1.** After running the API, move into the "web" folder:
+
+```bash
+cd web
+```
+
+**2.** Open the index.html file in your preferred web browser to view and interact with the Indonesian Quotes API.
