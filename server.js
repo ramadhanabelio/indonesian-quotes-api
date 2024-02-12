@@ -9,7 +9,7 @@ const quotes = require(path.join(__dirname, "data", "quotes.json"));
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Selamat Datang di API Indonesian Quotes API");
+  res.send("Welcome to API Indonesian Quotes API");
 });
 
 app.get("/love", (req, res) => {
@@ -38,10 +38,10 @@ function sendRandomQuote(res, category) {
     const randomQuote = quotes[categoryLowerCase][randomIndex];
     res.json({ quotes: randomQuote, category: categoryLowerCase });
   } else {
-    res.status(404).json({ error: "Category quote tidak valid" });
+    res.status(404).json({ error: "Invalid category quote" });
   }
 }
 
 app.listen(port, () => {
-  console.log(`Server berjalan di http://localhost:${port}`);
+  console.log(`The server is running on http://localhost:${port}`);
 });
