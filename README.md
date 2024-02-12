@@ -61,4 +61,4 @@ npm install express
 node server.js
 ```
 
-After following the steps above, the Quote API server is now running and can be accessed via a browser or an API testing tool such as Postman.
+After following the steps above, the Indonesian Quotes API server is now running and can be accessed via a browser or an API testing tool such as Postman.
