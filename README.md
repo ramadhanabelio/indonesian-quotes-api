@@ -4,6 +4,14 @@
 
 Indonesian Quotes API is a project that provides API services to get motivational quotes in three main categories, namely love, life and social. Citation data is stored in JSON format and can be accessed via an API endpoint.
 
+### API Endpoints
+
+Below is the table of available API endpoints:
+
+| Method | Endpoint       | Description                         |
+| ------ | -------------- | ----------------------------------- |
+| GET    | /quotes/:jenis | Get motivational quotes by category |
+
 ## Features
 
 1. Get motivational quotes by category (love, life, social).
