@@ -8,9 +8,13 @@ Indonesian Quotes API is a project that provides API services to get motivationa
 
 Below is the table of available API endpoints:
 
-| Method | Endpoint       | Description                         |
-| ------ | -------------- | ----------------------------------- |
-| GET    | /quotes/:jenis | Get motivational quotes by category |
+| Method | Endpoint       | Description                                     |
+| ------ | -------------- | ----------------------------------------------- |
+| GET    | /              | Get a welcome message for Indonesian Quotes API |
+| GET    | /quotes/love   | Get a random love quote                         |
+| GET    | /quotes/life   | Get a random life quote                         |
+| GET    | /quotes/social | Get a random social quote                       |
+| GET    | /quotes/random | Get a random quote from any category            |
 
 ## Features
 
