@@ -40,13 +40,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system befor
 **1.** Clone the repository project into a local directory:
 
 ```bash
-git clone https://github.com/username/indonesia-quotes-api.git
+git clone https://github.com/username/indonesian-quotes-api.git
 ```
 
 **2.** Go to the project directory:
 
 ```bash
-cd indonesia-quotes-api
+cd indonesian-quotes-api
 ```
 
 **3.** Project initialization and package.json file creation:
