@@ -1,4 +1,4 @@
-## Indonesia API Quotes
+## Indonesian Quotes API
 
 ## Description
 
